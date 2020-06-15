@@ -4,7 +4,7 @@
 
 #### By _**{Jason Khan && Frederick Ernest}**_
 
-## Description
+## Description of Address Book Behavior 
 
 _{Behavior 1 : Store contact information via html form, and append new conact name to contacts area Alphabetized}_
 
@@ -18,6 +18,24 @@ _{Behavior 2 : Display additional contact information when user clicks on addres
 * _John Doe_
 * _Portland, OR_
 * _503-349 0792_
+
+_{Behavior 3 : Find spesific contact by Name or ID}_
+
+* _User Input : John Doe or id# "0"
+* _John Doe_
+* _Portland, OR_
+* _503-349 0792_
+
+_{Behavior 4 : Delete contact}_
+
+* _User Input : On click "Delete Contact"_
+* _Expected output: Contact is deleted, warning displayed "Contact _____ deleted."_
+
+## Description of Places You've Been Behavior
+
+
+
+
 
 ## Setup/Installation Requirements
 
