@@ -1,12 +1,23 @@
-# _{Application Name}_
+# _{Address Book}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{Logs contact information and location}, {6-15-20}_
 
-#### By _**{List of contributors}**_
+#### By _**{Jason Khan && Frederick Ernest}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{Behavior 1 : Store contact information via html form, and append new conact name to contacts area Alphabetized}_
+
+* _User Input : John, Doe, Portland, OR, 503-123-1234
+* _Expected output : John Doe
+
+_{Behavior 2 : Display additional contact information when user clicks on address name}_
+
+* _User Input : Click on name
+* _Expected output : Show on click :
+* _John Doe_
+* _Portland, OR_
+* _503-349 0792_
 
 ## Setup/Installation Requirements
 
