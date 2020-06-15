@@ -1,21 +1,19 @@
-$(document).ready(function() {
-  $("#formOne").submit(function(event) {
-    const person1Input = $("input#person1").val();
-    const person2Input = $("input#person2").val();
-    const animalInput= $("input#animal").val();
-    const exclamationInput = $("input#exclamation").val();
-    const verbInput = $("input#verb").val();
-    const nounInput = $("input#noun").val();
+// Business Logic for AddressBook ---------
+function AddressBook() {
+  this.contacts = [];
+}
 
-    $(".person1").text(person1Input);
-    $(".person2").text(person2Input);
-    $(".animal").text(animalInput);
-    $(".exclamation").text(exclamationInput);
-    $(".verb").text(verbInput);
-    $(".noun").text(nounInput);
+AddressBook.prototype.addContact = function(contact) {
+  this.contacts.push(contact);
+}
 
-    $("#story").show();
+// Business Logic for Contacts ---------
+function Contact(firstName, lastName, phoneNumber) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.phoneNumber = phoneNumber;
+}
 
-    event.preventDefault();
-  });
-});
+Contact.prototype.fullName = function() {
+  return this.firstName + " " + this.lastName;
+}
