@@ -8,9 +8,10 @@ AddressBook.prototype.addContact = function(contact) {
 }
 
 // Business Logic for Contacts ---------
-function Contact(firstName, lastName, phoneNumber) {
+function Contact(firstName, lastName, location, phoneNumber) {
   this.firstName = firstName;
   this.lastName = lastName;
+  this.location = location;
   this.phoneNumber = phoneNumber;
 }
 
